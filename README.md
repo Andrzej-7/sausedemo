@@ -1,3 +1,5 @@
+RUN USING - mvn test -Dbrowser=firefox -Denviroment=qa -Dsurefire.suiteXmlFiles=src/test/resources/testng-all.xml
+
 Task description
 
 Launch URL: https://www.saucedemo.com/
